@@ -7,16 +7,19 @@ int main() {
   // ここにプログラムを追記
 
 	int i = 0;
-
+  cout << "A:";
   while (i < A) {
     cout << "]";
     i++;
   }
   cout << endl;
-
+  
+	i = 0;
+	cout << "B:";
   while (i < B) {
     cout << "]";
     i++;
   }
+  cout << endl;
 }
 
